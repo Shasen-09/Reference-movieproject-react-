@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/MovieCard.css"
-import { useMovieContext } from "../contexts/Moviecontext";
+import { useMovieContext } from '../contexts/MovieContext';
+
 
 
 const MovieCard = ({ movie }) => {
